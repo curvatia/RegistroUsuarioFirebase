@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "985858262471",
+    "firebase_url": "https://loginusuariofb-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "loginusuariofb",
+    "storage_bucket": "loginusuariofb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985858262471:android:b92237855ba1cccbec85e2",
+        "android_client_info": {
+          "package_name": "com.example.ej43registrousuariofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985858262471-hgp9dblbbct0hcf4oom7qr1a60a2aik1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRThAwNmKFpHT4KCNaBbD7XPjwSZG1X2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985858262471-hgp9dblbbct0hcf4oom7qr1a60a2aik1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
