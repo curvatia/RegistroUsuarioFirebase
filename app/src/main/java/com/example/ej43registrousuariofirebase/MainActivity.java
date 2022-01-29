@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         progressDialog.setMessage("Realizando registro en linea...");
         progressDialog.show();
 
-        //creating a new user --> alice@ya.es getafe12345 || bob@ya.es 123456 || erik@ya.es 123456 || charlie@ya.es 123456
+        //creating a new user --> alice@ya.es getafe12345 || bob@ya.es 123456 || erik@ya.es 123456 || charlie@ya.es 123456 // alice@ya.com getafe12345
         firebaseAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             Toast.makeText(MainActivity.this,"Se ha registrado el usuario con el email: "+ TextEmail.getText(),Toast.LENGTH_LONG).show();
                         }else{
 
-                            Toast.makeText(MainActivity.this,"No se pudo registrar el usuario ",Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this,"Ya existe el usuario con el mismo mail",Toast.LENGTH_LONG).show();
                         }
                         progressDialog.dismiss();
                     }
